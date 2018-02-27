@@ -4,7 +4,7 @@ This project measures the temperature using a Maxim DS18B20 1-wire sensor,
 stores the temperature in a Maria DB and displays temperatures on an Apache
 web page.
 
-I used the project "Raspberry Pi Temperature Sensor: Build a DS18B20 Circuit
+I used the project "Raspberry Pi Temperature Sensor: Build a DS18B20 Circuit" 
 https://pimylifeup.com/raspberry-pi-temperature-sensor/ and added a database
 and a web server.
 
@@ -26,12 +26,12 @@ https://pimylifeup.com/raspberry-pi-temperature-sensor/
   cd Raspberry/Temperature
   sudo cp -r www/html/* /var/www/html/.
   ```
-* Install Apache, Maria DB and PHP, see `raspbian_lamp_install.txt`. Set the
+* Install Apache, Maria DB and PHP, see `raspbian_lamp_install.md`. Set the
 username and password that you want.
-* Setup Maria DB, see `raspbian_maria_db_setup.txt`. Set the username and
+* Setup Maria DB, see `raspbian_maria_db_setup.md`. Set the username and
 password that you want.
 * Add cron job and change '28-041780f40cff' to the correct sensor identity,
-see `raspbian_add_cron_job.txt`.
+see `raspbian_add_cron_job.md`.
 * Edit `/var/www/html/index.php` and change '28-041780f40cff' to the correct
 sensor identity.
 
