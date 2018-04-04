@@ -4,9 +4,7 @@ This project measures the temperature using a Maxim DS18B20 1-wire sensor,
 stores the temperature in a Maria DB and displays temperatures on an Apache
 web page.
 
-I used the project "Raspberry Pi Temperature Sensor: Build a DS18B20 Circuit" 
-https://pimylifeup.com/raspberry-pi-temperature-sensor/ and added a database
-and a web server.
+I used the project ["Raspberry Pi Temperature Sensor: Build a DS18B20 Circuit"](https://pimylifeup.com/raspberry-pi-temperature-sensor/) and added a database and a web server.
 
 ## Equipment
 
@@ -15,7 +13,7 @@ and a web server.
 * Resistor 4.7 Kohm (or some value 1.5 - 5.6 Kohm).
 
 Connect the DS18B20 temperature sensor and get the correct sensor identity, see
-https://pimylifeup.com/raspberry-pi-temperature-sensor/
+["Raspberry Pi Temperature Sensor: Build a DS18B20 Circuit"](https://pimylifeup.com/raspberry-pi-temperature-sensor/).
 
 ## Installation
 
@@ -45,11 +43,11 @@ temperature and highest temperature for the selected period.
 
 The current temperature of the Raspberry Pi CPU and GPU are also displayed.
 
-* http://ip-address:port/index.php
-  Displays temperatures for today.
-* http://ip-address:port/index.php?d=YYYY-MM-DD
-  Displays temperatures for a specific day (YYYY-MM-DD).
-* http://ip-address:port/index.php?m=YYYY-MM
-  Displays temperatures for a specific month (YYYY-MM).
-* http://ip-address:port/index.php?y=YYYY
-  Displays temperatures for a specific year (YYYY).
+* http://ip-address:port/index.php  
+  Displays temperatures for today.  
+* http://ip-address:port/index.php?d=YYYY-MM-DD  
+  Displays temperatures for a specific day (YYYY-MM-DD).  
+* http://ip-address:port/index.php?m=YYYY-MM  
+  Displays temperatures for a specific month (YYYY-MM).  
+* http://ip-address:port/index.php?y=YYYY  
+  Displays temperatures for a specific year (YYYY).  

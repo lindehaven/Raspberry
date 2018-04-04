@@ -120,25 +120,11 @@ echo "<td class='sen'>CPU</td>";
 echo "<td class='val'>" . $cpu_temp . "<sup class='cel'>&deg;C</sup></td>";
 echo "<td class='per'></td>";
 echo "</tbody></table>";
-
-$gpu_temp = exec("/opt/vc/bin/vcgencmd measure_temp", $unused, $ret_val);
-if ($ret_val != 0)
-   $gpu_temp = "N/A";
-else
-   $gpu_temp = str_replace("temp=", "", $gpu_temp);
-   $gpu_temp = str_replace("'C", "", $gpu_temp);
-   $gpu_temp = number_format($gpu_temp, DECIMALS);
-echo "<table><tbody>";
-echo "<td class='sen'>GPU</td>";
-echo "<td class='val'>" . $gpu_temp . "<sup class='cel'>&deg;C</sup></td>";
-echo "<td class='per'></td>";
-echo "</tr>";
-echo "</tbody></table>";
 ?>
 
 <table><tbody>
 <tr class='foot'><td>
-By Lars Lindehaven 2018-02-09. Raspberry Pi Zero W.
+By Lars Lindehaven 2018-04-04. Raspberry Pi Zero W.
 </td></tr>
 </tbody></table>
 
