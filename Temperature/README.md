@@ -28,9 +28,9 @@ Connect the DS18B20 temperature sensor and get the correct sensor identity, see
 username and password that you want.
 * Setup Maria DB, see `raspbian_maria_db_setup.md`. Set the username and
 password that you want.
-* Add cron job and change '28-041780f40cff' to the correct sensor identity,
+* Add cron job and change `28-041780f40cff` to the correct sensor identity,
 see `raspbian_add_cron_job.md`.
-* Edit `/var/www/html/index.php` and change '28-041780f40cff' to the correct
+* Edit `/var/www/html/index.php` and change `28-041780f40cff` to the correct
 sensor identity.
 
 ## Function

@@ -33,7 +33,7 @@
 
 <?php
 define("DECIMALS", 1);
-$sensor_array = array("28-041780f40cff"=>"TEMP", "99-999999999999"=>"TEST");
+$sensor_array = array("28-041780f40cff"=>"TEMP");
 $servername = "localhost";
 $username = "webusername";
 $password = "webpassword";
@@ -124,7 +124,7 @@ echo "</tbody></table>";
 
 <table><tbody>
 <tr class='foot'><td>
-By Lars Lindehaven 2018-04-04. Raspberry Pi Zero W.
+By Lars Lindehaven 2018-04-06. Raspberry Pi Zero W.
 </td></tr>
 </tbody></table>
 

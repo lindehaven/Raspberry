@@ -16,17 +16,15 @@
 
 ## (P) PHP
     apt-get install -y libapache2-mod-php
-    apt-get install -y php php-apcu php-curl php-mbstring php-gd php-mysql php-opcache php-pear 
+    apt-get install -y php php-apcu php-curl php-mbstring php-gd php-mysql php-opcache php-pear
     systemctl restart apache2.service
     php -v
 
-## Extras
+## Python module for MariaDB
+    apt-get install -y python-mysqldb
 
-### Python module for MariaDB
-    apt-get install python-mysqldb
-
-### Remove trashed installations (if needed)
+## Remove trashed installations (if needed)
     apt autoremove
 
-### Clean-up
+## Clean-up
     apt-get clean
